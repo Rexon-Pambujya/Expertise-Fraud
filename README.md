@@ -2,6 +2,7 @@
 
 A comprehensive proof-of-concept for detecting potential expertise fraud in candidate profiles using machine learning, reinforcement learning, and workflow orchestration. This system analyzes profile histories, screening answers, and web signals to identify suspicious claims, providing explainable decisions for hiring processes.
 
+```mermaid
 flowchart TD
 
 A[Candidate Data Sources] --> B[Data Normalization]
@@ -31,6 +32,8 @@ G3 --> H
 H --> I[Feedback Loop]
 
 I --> F
+
+```
 
 ## 🎯 What This Project Demonstrates
 
