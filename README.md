@@ -2,6 +2,36 @@
 
 A comprehensive proof-of-concept for detecting potential expertise fraud in candidate profiles using machine learning, reinforcement learning, and workflow orchestration. This system analyzes profile histories, screening answers, and web signals to identify suspicious claims, providing explainable decisions for hiring processes.
 
+flowchart TD
+
+A[Candidate Data Sources] --> B[Data Normalization]
+
+B --> C1[Timeline Analyzer]
+B --> C2[Answer Analyzer]
+B --> C3[Consistency Checker]
+B --> C4[Interaction Detector]
+
+C1 --> D[Feature Vector]
+C2 --> D
+C3 --> D
+C4 --> D
+
+D --> E[Risk Scoring Layer]
+
+E --> F[RL Decision Engine]
+
+F --> G1[PASS]
+F --> G2[FLAG]
+F --> G3[ASK MORE]
+
+G1 --> H[Explainability Layer]
+G2 --> H
+G3 --> H
+
+H --> I[Feedback Loop]
+
+I --> F
+
 ## 🎯 What This Project Demonstrates
 
 This implementation showcases a balanced approach to fraud detection that prioritizes **interpretability and practicality** over complex models. Key highlights:
