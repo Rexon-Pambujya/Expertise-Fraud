@@ -249,10 +249,6 @@ pytest tests/
 3. Add tests for changes.
 4. Submit a PR with description.
 
-## 📄 License
-
-This project is for educational/demonstration purposes. Use at your own risk.
-
 ## 🙏 Acknowledgments
 
-Built with LangChain, Stable-Baselines3, Gymnasium, and Streamlit. Inspired by real-world hiring challenges.
+Built with LangChain, Stable-Baselines3, Gymnasium, and Streamlit.
