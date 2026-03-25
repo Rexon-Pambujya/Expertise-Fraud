@@ -22,7 +22,7 @@ E --> F[RL Decision Engine]
 
 F --> G1[PASS]
 F --> G2[FLAG]
-F --> G3[ASK MORE]
+F --> G3[ASK_MORE]
 
 G1 --> H[Explainability Layer]
 G2 --> H
